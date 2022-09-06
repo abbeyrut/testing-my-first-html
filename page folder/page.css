@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//MENU
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    text-transform: uppercase;
+       
+}
+
+img {
+    width: 200px;
+    height: 40px;
+    margin-right: auto;
+}
+
+.top1-box li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+//PROMO
+.promo {
+    display: flex;
+}
+
+.promo .left-column {
+    width: 70%;
+}
+
+.promo .right-column {
+    width: 30%;
+}
